@@ -5,7 +5,7 @@ import sys
 
 def convert(path):
 	line_content = ""
-	head = "<html><head><script>function printDiv(divName) {var printContents = document.getElementById(divName).innerHTML;var originalContents = document.body.innerHTML;     document.body.innerHTML = printContents;     window.print();document.body.innerHTML = originalContents;}</script><style>sup {color:red; font-weight: bold;} body {font-family: 'Arial';line-height: 150%} #header { font-size: 150%; line-height: 110%} #author{font-size: 100%; line-height: 400%}</style></head><body>"
+	head = "<html><head><style>sup {color:red; font-weight: bold;} body {font-family: 'Arial';line-height: 150%} #header { font-size: 150%; line-height: 110%} #author{font-size: 100%; line-height: 400%}</style></head><body>"
 	final = ''
 	footer = "</body></html>"
 	with open(fname, "r", encoding="utf8") as f:
