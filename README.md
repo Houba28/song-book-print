@@ -10,4 +10,8 @@ This is a short script for creating a nice htmlpage to print a song text with hi
   line 3: notes, like "capo, 4th. fret" etc
   other lines: text with chords, spaced
   
+  in command line add an argument for this script with a name of txt file, like python main.py song.txt
+
+  run! and its done :)
+  
   script will create a html static page that has a sup tags around chords and this way it will highlight chords in a text, like this <sup> Chord</sup>. With css you can also customize color, now just a style tag in head, but you can attach a css file to be easily edited and customized. 
