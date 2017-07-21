@@ -10,7 +10,9 @@ This is a short script for creating a nice htmlpage to print a song text with hi
   line 3: notes, like "capo, 4th. fret" etc
   other lines: text with chords, spaced
   
-  in command line add an argument for this script with a name of txt file, like python main.py song.txt
+  run the python file without arguments (or exe file from release) and it will scan current directory for a txt files.
+  Using an argument you can convert only the one file.
+  Argument help or ? can show usage 
 
   run! and its done :)
   
